@@ -5,7 +5,7 @@ import logo from "./image/react.png";
 export default function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
           <img
             src={logo}
