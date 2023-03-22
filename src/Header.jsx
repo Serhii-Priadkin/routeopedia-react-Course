@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div>
       <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
-        <div class="container-fluid">
+        <div className="container-fluid">
           <img
             src={logo}
             alt=""
@@ -35,9 +35,9 @@ export default function Header() {
                   Link
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
