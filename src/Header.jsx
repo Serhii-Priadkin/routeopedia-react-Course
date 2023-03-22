@@ -36,6 +36,11 @@ export default function Header() {
                   About
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/cryptodetail/BTC/10">
+                  Crypto Details
+                </Link>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
