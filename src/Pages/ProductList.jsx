@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
+import { Link, useNavigate, Navigate } from "react-router-dom";
 
 function ProductList() {
+  const navigate = useNavigate();
+
   return (
-    <div>ProductList</div>
-  )
+    <div>
+      ProductList{" "}
+      <button
+        onClick={() => {
+          navigate("/product/create");
+        }}
+      >
+        Add Product{" "}
+      </button>
+    </div>
+  );
 }
 
-export default ProductList
+export default ProductList;
